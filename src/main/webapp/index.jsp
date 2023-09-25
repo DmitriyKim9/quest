@@ -12,7 +12,7 @@
 <p>Вы - искатель приключений, оказавшийся в галактике Звёздных войн. Вам стало известно о сокровищах Ситхов, спрятанных
     на далекой планете Эксилон. Ваша задача - найти их. Путешествие начинается...</p>
 <p>Назовите своё имя</p>
-<form action="app" method="post" name="form">
+<form action="quest" method="post" name="form">
     <div class="input-box">
         <input
                 type="text"
@@ -23,7 +23,7 @@
         <label for="name"></label>
     </div>
     <div class="button">
-        <input type="submit" formaction="<c:url value = 'quest?cmd=registrationButton' />">
+        <input type="submit" formaction="<c:url value = 'quest?cmd=' />">
     </div>
 </form>
 </body>
