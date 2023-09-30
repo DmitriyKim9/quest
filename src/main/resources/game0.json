@@ -1,0 +1,275 @@
+{
+  "id": 0,
+  "questions": [
+    {
+      "id": 0,
+      "gameId": 0,
+      "title": "Планета Эксилон",
+      "question": "Вы прибываете на планету Эксилон. Перед вами три пути: через лес, по горным тропам или к побережью. Куда отправитесь?",
+      "isEnd": "false",
+      "answers": [
+        {
+          "id": 0,
+          "questionId": 0,
+          "nextQuestionId": 1,
+          "answer": "Пойти через лес"
+        },
+        {
+          "id": 1,
+          "questionId": 0,
+          "nextQuestionId": 2,
+          "answer": "Идти по горным тропам"
+        },
+        {
+          "id": 2,
+          "questionId": 0,
+          "nextQuestionId": 3,
+          "answer": "Отправиться к побережью"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "gameId": 0,
+      "title": "В лесу",
+      "question": "Вы в лесу, где вас поджидают дикие животные. Ваше действие:",
+      "isEnd": "false",
+      "answers": [
+        {
+          "id": 0,
+          "questionId": 1,
+          "nextQuestionId": 5,
+          "answer": "Попытаться обойти животных"
+        },
+        {
+          "id": 1,
+          "questionId": 1,
+          "nextQuestionId": 6,
+          "answer": "Использовать световой меч и защититься"
+        },
+        {
+          "id": 2,
+          "questionId": 1,
+          "nextQuestionId": 0,
+          "answer": "Попытаться уйти обратно к кораблю"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "gameId": 0,
+      "title": "В горах",
+      "question": "Вы в горах, но ваши пути заблокированы обвалом. Что делать?",
+      "isEnd": "false",
+      "answers": [
+        {
+          "id": 0,
+          "questionId": 2,
+          "nextQuestionId": 7,
+          "answer": "Искать обходной путь"
+        },
+        {
+          "id": 1,
+          "questionId": 2,
+          "nextQuestionId": 8,
+          "answer": "Попробовать разобрать обвал"
+        },
+        {
+          "id": 2,
+          "questionId": 2,
+          "nextQuestionId": 0,
+          "answer": "Вернуться обратно"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "gameId": 0,
+      "title": "На побережье",
+      "question": "Вы на побережье, но видите, что ваши следы остались на песке. Что сделаете?",
+      "isEnd": "false",
+      "answers": [
+        {
+          "id": 0,
+          "questionId": 3,
+          "nextQuestionId": 9,
+          "answer": "Искать следы других исследователей"
+        },
+        {
+          "id": 1,
+          "questionId": 3,
+          "nextQuestionId": 4,
+          "answer": "Пойти вдоль побережья"
+        },
+        {
+          "id": 2,
+          "questionId": 3,
+          "nextQuestionId": 0,
+          "answer": "Попытаться вернуться к кораблю"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "gameId": 0,
+      "title": "Поздравляю, сокровища найдены!",
+      "question": "Вы успешно нашли сокровища Ситхов! Они скрываются в древнем храме в скале, возвыщающейся над побережьем.",
+      "isEnd": "true",
+      "answers": [
+        {
+          "id": 0,
+          "questionId": 4,
+          "nextQuestionId": 0,
+          "answer": ""
+        },
+        {
+          "id": 1,
+          "questionId": 4,
+          "nextQuestionId": 0,
+          "answer": ""
+        },
+        {
+          "id": 2,
+          "questionId": 4,
+          "nextQuestionId": 0,
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "gameId": 0,
+      "title": "Вам не повезло - вы проиграли",
+      "question": "Дикое животное смертельно ранело вас...",
+      "isEnd": "true",
+      "answers": [
+        {
+          "id": 0,
+          "questionId": 5,
+          "nextQuestionId": 0,
+          "answer": ""
+        },
+        {
+          "id": 1,
+          "questionId": 5,
+          "nextQuestionId": 0,
+          "answer": ""
+        },
+        {
+          "id": 2,
+          "questionId": 5,
+          "nextQuestionId": 0,
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "gameId": 0,
+      "title": "Вам не повезло - вы проиграли",
+      "question": "Одно из диких животных выбило у вас световой меч, а другое сбила вас с ног - вам не удалось убежать...",
+      "isEnd": "true",
+      "answers": [
+        {
+          "id": 0,
+          "questionId": 6,
+          "nextQuestionId": 0,
+          "answer": ""
+        },
+        {
+          "id": 1,
+          "questionId": 6,
+          "nextQuestionId": 0,
+          "answer": ""
+        },
+        {
+          "id": 2,
+          "questionId": 6,
+          "nextQuestionId": 0,
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "gameId": 0,
+      "title": "Вам не повезло - вы проиграли",
+      "question": "В поисказ обходного пути вы решили пройти по краю обрыва. Но внезапно вы подскользнулись и полетели вниз.",
+      "isEnd": "true",
+      "answers": [
+        {
+          "id": 0,
+          "questionId": 7,
+          "nextQuestionId": 0,
+          "answer": ""
+        },
+        {
+          "id": 1,
+          "questionId": 7,
+          "nextQuestionId": 0,
+          "answer": ""
+        },
+        {
+          "id": 2,
+          "questionId": 7,
+          "nextQuestionId": 0,
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "gameId": 0,
+      "title": "Вам не повезло - вы проиграли",
+      "question": "В момент, когда вы попытались убрать первый камень - остальные камни с гохотом обрушился на вас.",
+      "isEnd": "true",
+      "answers": [
+        {
+          "id": 0,
+          "questionId": 8,
+          "nextQuestionId": 0,
+          "answer": ""
+        },
+        {
+          "id": 1,
+          "questionId": 8,
+          "nextQuestionId": 0,
+          "answer": ""
+        },
+        {
+          "id": 2,
+          "questionId": 8,
+          "nextQuestionId": 0,
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "gameId": 0,
+      "title": "Вам не повезло - вы проиграли",
+      "question": "В поисках следов других исследователей вы заблудились, но так ничего и не нашли.",
+      "isEnd": "true",
+      "answers": [
+        {
+          "id": 0,
+          "questionId": 9,
+          "nextQuestionId": 0,
+          "answer": ""
+        },
+        {
+          "id": 1,
+          "questionId": 9,
+          "nextQuestionId": 0,
+          "answer": ""
+        },
+        {
+          "id": 2,
+          "questionId": 9,
+          "nextQuestionId": 0,
+          "answer": ""
+        }
+      ]
+    }
+  ]
+}

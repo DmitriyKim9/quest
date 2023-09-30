@@ -1,4 +1,4 @@
-package ua.javarush.kim.quest.quest.entity;
+package ua.javarush.kim.quest.entity;
 
 import java.util.List;
 

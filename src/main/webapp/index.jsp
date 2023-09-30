@@ -23,7 +23,7 @@
         <label for="name"></label>
     </div>
     <div class="button">
-        <input type="submit" formaction="<c:url value = 'quest?cmd=' />">
+        <input type="submit" formaction="<c:url value = 'quest?cmd=question' />">
     </div>
 </form>
 </body>

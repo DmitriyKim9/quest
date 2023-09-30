@@ -1,13 +1,15 @@
-package ua.javarush.kim.quest.quest.entity;
+package ua.javarush.kim.quest.entity;
 
 import java.util.List;
 
 public class Question {
     private Long id;
     private Long gameId;
-    private String text;
-    private List<Answer> answers;
+    private String title;
+    private String question;
     private boolean isEnd;
+    private List<Answer> answers;
+
 
     public Long getId() {
         return id;
@@ -25,12 +27,12 @@ public class Question {
         this.gameId = gameId;
     }
 
-    public String getText() {
-        return text;
+    public String getQuestion() {
+        return question;
     }
 
-    public void setText(String text) {
-        this.text = text;
+    public void setQuestion(String question) {
+        this.question = question;
     }
 
     public List<Answer> getAnswers() {
@@ -41,7 +43,7 @@ public class Question {
         this.answers = answers;
     }
 
-    public boolean isEnd() {
+    public boolean getIsEnd() {
         return isEnd;
     }
 
@@ -49,14 +51,23 @@ public class Question {
         isEnd = end;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     @Override
     public String toString() {
         return "Question{" +
                 "id=" + id +
                 ", gameId=" + gameId +
-                ", text='" + text + '\'' +
-                ", answers=" + answers +
+                ", title='" + title + '\'' +
+                ", question='" + question + '\'' +
                 ", isEnd=" + isEnd +
+                ", answers=" + answers +
                 '}';
     }
 }

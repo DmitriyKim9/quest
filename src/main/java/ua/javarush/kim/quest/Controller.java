@@ -1,4 +1,4 @@
-package ua.javarush.kim.quest.quest;
+package ua.javarush.kim.quest;
 
 import java.io.*;
 import java.util.Map;
@@ -9,30 +9,12 @@ import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ua.javarush.kim.quest.quest.command.Command;
-import ua.javarush.kim.quest.quest.command.CommandContainer;
-import ua.javarush.kim.quest.quest.command.CommandException;
+import ua.javarush.kim.quest.command.Command;
+import ua.javarush.kim.quest.command.CommandContainer;
+import ua.javarush.kim.quest.command.CommandException;
 
 @WebServlet( "/quest")
 public class Controller extends HttpServlet {
-//    private String message;
-//
-//    public void init() {
-//        message = "Hello World!";
-//    }
-//
-//    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-//        response.setContentType("text/html");
-//
-//        // Hello
-//        PrintWriter out = response.getWriter();
-//        out.println("<html><body>");
-//        out.println("<h1>" + message + "</h1>");
-//        out.println("</body></html>");
-//    }
-//
-//    public void destroy() {
-//    }
 
     private static final Logger LOG = LoggerFactory.getLogger(Controller.class);
     private CommandContainer commands;

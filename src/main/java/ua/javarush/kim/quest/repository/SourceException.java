@@ -1,4 +1,4 @@
-package ua.javarush.kim.quest.quest.repository;
+package ua.javarush.kim.quest.repository;
 
 import java.sql.SQLException;
 

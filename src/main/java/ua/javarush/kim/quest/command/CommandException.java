@@ -1,4 +1,4 @@
-package ua.javarush.kim.quest.quest.command;
+package ua.javarush.kim.quest.command;
 
 public class CommandException extends Exception {
 

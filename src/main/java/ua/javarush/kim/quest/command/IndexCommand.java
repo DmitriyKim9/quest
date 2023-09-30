@@ -1,4 +1,4 @@
-package ua.javarush.kim.quest.quest.command;
+package ua.javarush.kim.quest.command;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

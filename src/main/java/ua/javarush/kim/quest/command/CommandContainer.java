@@ -1,10 +1,10 @@
-package ua.javarush.kim.quest.quest.command;
+package ua.javarush.kim.quest.command;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class CommandContainer {
-	private Map<String, Command> commands = new HashMap<>(); 
+	private final Map<String, Command> commands = new HashMap<>();
 	public Command getCommand(String name) {
 		return commands.get(name);
 	}

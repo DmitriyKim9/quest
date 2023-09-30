@@ -1,10 +1,10 @@
-package ua.javarush.kim.quest.quest.entity;
+package ua.javarush.kim.quest.entity;
 
 public class Answer {
     private Long id;
     private Long questionId;
     private Long nextQuestionId;
-    private String text;
+    private String answer;
 
     public Long getId() {
         return id;
@@ -30,12 +30,12 @@ public class Answer {
         this.nextQuestionId = nextQuestionId;
     }
 
-    public String getText() {
-        return text;
+    public String getAnswer() {
+        return answer;
     }
 
-    public void setText(String text) {
-        this.text = text;
+    public void setAnswer(String answer) {
+        this.answer = answer;
     }
 
     @Override
@@ -44,7 +44,7 @@ public class Answer {
                 "id=" + id +
                 ", questionId=" + questionId +
                 ", nextQuestionId=" + nextQuestionId +
-                ", text='" + text + '\'' +
+                ", text='" + answer + '\'' +
                 '}';
     }
 }
