@@ -8,6 +8,7 @@ public class Question {
     private String title;
     private String question;
     private boolean isEnd;
+    private boolean isWin;
     private List<Answer> answers;
 
 
@@ -47,8 +48,16 @@ public class Question {
         return isEnd;
     }
 
-    public void setEnd(boolean end) {
+    public void setIsEnd(boolean end) {
         isEnd = end;
+    }
+
+    public boolean getIsWin() {
+        return isWin;
+    }
+
+    public void setIsWin(boolean win) {
+        isWin = win;
     }
 
     public String getTitle() {
@@ -71,3 +80,4 @@ public class Question {
                 '}';
     }
 }
+
