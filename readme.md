@@ -9,7 +9,7 @@ The project is a turn-based quest with single-choice answers.
 
 ## Installing dependencies
 - Tomcat 10 or later
-- Java 11 or later
+- Java 18 or later
 
 For a full list of dependencies and their versions, please refer to the [pom.xml](./pom.xml) file.
 
